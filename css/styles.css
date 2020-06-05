@@ -1,0 +1,102 @@
+*{
+	box-sizing: border-box;
+
+}
+
+h1{
+	text-align:center;
+	font-family:Sans ;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	font-size: 175%;
+	text-decoration: underline;
+}
+.row{
+	width: 100%;
+
+}
+.title1,.title2,.title3{
+	position: relative;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	width:30%;
+	height:40%; 
+	font-weight: bold;
+	float:right;
+	text-align: center;
+	font-size: 125%;
+	font-family: Arial;
+	
+
+}
+
+.title1{
+	background-color:pink;
+}
+.title2{
+	background-color:red;
+	color:white;
+
+}
+.title3{
+	background-color:lightgreen;
+}
+.content{
+	clear:right;
+	padding: 10px;
+	font-family: Helvetica;
+}
+
+
+.col-lg-4 ,.col-md-6,.col-sm-12{
+	
+	
+	position: relative;
+	padding:10px;
+	overflow: :hidden;
+	
+
+}
+#Jbl,#Sony,#Bose{
+	background-color: lightgray;
+	overflow:hidden;
+}
+
+
+@media (min-width: 992px) {
+  .col-lg-4{
+  		float:left;
+		
+		width:33.33%;
+  }
+  #Jbl,#Sony,#Bose{
+  	border:1px solid black;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6{
+  		float:left;
+		width:50%;
+  }
+  .col-md-12{
+  	float:left;
+  	width:100%;
+  }
+  #Jbl,#Sony,#Bose{
+  	border:1px solid black;
+  }
+}
+@media (max-width:767px)
+{
+	.col-sm-12{
+		float:left;
+		width:100%;
+	}
+	#Jbl,#Sony,#Bose{
+  	border:1px solid black;
+  }
+
+
+
+}
